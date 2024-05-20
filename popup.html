@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Instagram Network Monitor</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            width: 300px;
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 8px;
+            margin-bottom: 10px;
+            border-bottom: 1px solid #ccc;
+        }
+
+        button {
+            margin: 5px 0;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Requests</h1>
+    <button id="refresh-requests">Refresh Requests</button>
+    <ul id="requests"></ul>
+    <label>
+        <input type="checkbox" id="toggle-block" />
+        Block Instagram Reels
+    </label>
+    <script src="popup.js"></script>
+</body>
+
+</html>
